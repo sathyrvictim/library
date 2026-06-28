@@ -35,5 +35,8 @@ function Player(name, marker){
 }
 
 const playerOne = new Player('fajar', 'jobless');
+const playerTwo = new Player('fajar','homeless')
 
 console.log(`${playerOne.name} the ${playerOne.marker}`)
+
+console.log(Object.getPrototypeOf(playerOne));
