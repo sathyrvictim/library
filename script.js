@@ -40,3 +40,14 @@ const playerTwo = new Player('fajar','homeless')
 console.log(`${playerOne.name} the ${playerOne.marker}`)
 
 console.log(Object.getPrototypeOf(playerOne));
+
+
+
+const CetakanRobot ={
+    sapa: function(){
+        console.log(`Hello, i'am a robot`);
+    }
+}
+
+const robot1 = Object.create(CetakanRobot);
+robot1.sapa()
